@@ -1,0 +1,32 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# Android
+android/.gradle/
+android/app/build/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/
+
+# Node (if any)
+node_modules/
+
+# APK / AAB
+*.apk
+*.aab
+
+# IDE
+.vscode/
+.idea/
+
+# Media (optional – only if not needed in repo)
+*.mp4
+*.mov
+*.avi
