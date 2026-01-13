@@ -1,32 +1,84 @@
-# Flutter
+# =========================
+# Flutter / Dart
+# =========================
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
 .pub-cache/
 build/
+coverage/
 
+# =========================
 # Android
+# =========================
 android/.gradle/
 android/app/build/
+android/build/
+android/local.properties
 
+# Firebase / Google (CRITICAL)
+android/app/google-services.json
+
+# =========================
+# Android signing (NEVER COMMIT)
+# =========================
+*.jks
+*.keystore
+key.properties
+
+# =========================
 # iOS
+# =========================
 ios/Pods/
 ios/.symlinks/
 ios/Flutter/
+ios/Flutter/ephemeral/
+ios/Runner.xcworkspace/
 
-# Node (if any)
+# =========================
+# Node.js
+# =========================
 node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+dist/
 
-# APK / AAB
+# =========================
+# APK / AAB (NEVER COMMIT)
+# =========================
 *.apk
 *.aab
 
-# IDE
+# =========================
+# IDE / Editors
+# =========================
 .vscode/
 .idea/
+*.iml
 
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
 # Media (optional – only if not needed in repo)
+# =========================
 *.mp4
 *.mov
 *.avi
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
