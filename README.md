@@ -86,21 +86,4 @@ flutter build apk --release
 - Open issues for bugs or feature requests.
 - Create feature branches and submit PRs against `main`.
 
-**Troubleshooting**
 
-- Run `flutter clean` then `flutter pub get` to refresh dependencies.
-- Check `android/gradle.properties` and `local.properties` for correct Android SDK paths on your machine.
-
-**License**
-
-This project does not include a license file. Add a `LICENSE` if you wish to make the terms explicit.
-
---
-
-If you'd like, I can also:
-
-- Add an explicit `Contributing` section with code style and PR checklist.
-- Create a `LICENSE` file (choose one).
-- Add CI workflow to run `flutter analyze` and tests.
-
-Tell me which of these you want next.
